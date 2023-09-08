@@ -1,0 +1,85 @@
+/* Write your CSS here */
+/* Container for the entire app */
+.even-odd-app {
+  text-align: center;
+  background-color: #bfe9ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Styles for the count display container */
+.count-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Styles for the count text */
+.count {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  color: #0f172a;
+  margin: 0;
+}
+
+/* Styles for the message text */
+.message {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #334155;
+  margin: 0;
+  margin-top: 10px;
+}
+
+/* Styles for the increment button */
+.increment-button {
+  background-color: #ff6e7f;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.increment-button:hover {
+  background-color: #ff5771;
+}
+
+.increment-button:focus {
+  outline: none;
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 576px) {
+  .even-odd-app {
+    max-width: 600px;
+  }
+}
+
+/* Responsive styles for medium, large, and extra-large screens */
+@media (min-width: 768px) {
+  .even-odd-app {
+    max-width: 800px;
+  }
+}
+
+/* Additional responsive styles for larger screens */
+@media (min-width: 992px) {
+  .even-odd-app {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .even-odd-app {
+    max-width: 1200px;
+  }
+}
